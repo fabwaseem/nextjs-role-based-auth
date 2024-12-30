@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background min-h-screen;
+  }
+}
+
+:root {
+  --background: 0 3 26;
+  --foreground: 255 255 255;
+  --accent: 79 70 229;
+}
