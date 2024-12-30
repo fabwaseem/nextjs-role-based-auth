@@ -1,13 +1,17 @@
 "use client";
+
 import HeroSection from "@/components/landing/HeroSection";
-import { motion } from "framer-motion";
-import Link from "next/link";
+import FeaturesSection from "@/components/landing/FeaturesSection";
+import TestimonialsSection from "@/components/landing/TestimonialsSection";
+import Footer from "@/components/landing/Footer";
 
 function LandingPage() {
   return (
-    <main className="min-h-screen ">
-      {/* Hero Section */}
+    <main className="min-h-screen">
       <HeroSection />
+      <FeaturesSection />
+      <TestimonialsSection />
+      <Footer />
     </main>
   );
 }
